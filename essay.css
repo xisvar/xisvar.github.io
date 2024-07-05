@@ -1,0 +1,263 @@
+@font-face {
+    font-family: myFont;
+    src: url(NeueMachina-Regular.otf);
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slideIn 1s linear both;
+    animation-timeline: view();
+    animation-range: entry 100% cover 10%;
+}
+
+
+*{
+    font-family: myFont;
+}
+
+body{
+    background-color: black;
+}
+
+h1 , h2, h3, h4, h5{
+    color: white;
+    animation: slideIn 1s linear both;
+    animation-timeline: view();
+    animation-range: entry 50% cover 30%;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h4{
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+}
+
+p{
+    color: rgb(210, 210, 210);
+    font-size: 17px;
+}
+
+.frame{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.frame h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+}
+
+.des{
+    display: grid;
+}
+
+em{
+    color: aliceblue;
+}
+
+li{
+    color:  rgb(210, 210, 210);
+    font-size: 16px;
+    animation: fadeIn 1s ;
+}
+
+.des a{
+    font-size: 15px;
+    color: #c9c9c9;
+    
+}
+
+.filler{
+    width: 10px;
+}
+
+@media (max-width: 992px) {
+.des {
+padding: 0 100px;
+}
+
+.frame h1 {
+font-size: 28px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+p {
+font-size: 13px;
+}
+}
+
+@media (max-width: 768px) {
+.des {
+padding: 0 50px;
+}
+
+.frame {
+height: 50vh;
+}
+
+.frame h1 {
+font-size: 24px;
+padding: 8px 16px;
+}
+
+h1 {
+font-size: 22px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 12px;
+}
+}
+
+
+@media (max-width: 992px) {
+.des {
+padding: 0 100px;
+}
+
+.frame h1 {
+font-size: 28px;
+}
+
+h1 {
+font-size: 24px;
+}
+
+h2 {
+font-size: 20px;
+}
+
+h3 {
+font-size: 16px;
+}
+
+p {
+font-size: 13px;
+}
+}
+
+@media (max-width: 768px) {
+.des {
+padding: 0 50px;
+}
+
+.frame {
+height: 80vh;
+}
+
+.frame h1 {
+font-size: 24px;
+padding: 8px 16px;
+}
+
+h1 {
+font-size: 22px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 13px;
+}
+}
+
+@media (max-width: 576px) {
+.des {
+padding: 0 20px;
+}
+
+.frame {
+height: 40vh;
+}
+
+.frame h1 {
+font-size: 20px;
+padding: 6px 12px;
+}
+
+h1 {
+font-size: 20px;
+}
+
+h2 {
+font-size: 16px;
+}
+
+h3 {
+font-size: 14px;
+}
+
+p {
+font-size: 13px;
+}
+
+em {
+font-size: 14px;
+}
+}
