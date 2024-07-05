@@ -103,7 +103,7 @@ body{
     width: 100vw;
     top: 0;
     padding: 25px;
-    background-color: #141414e9;
+    background-color: transparent;
     z-index: 3;
 }
 
