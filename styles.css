@@ -101,9 +101,9 @@ body{
     justify-content: center;
     position: fixed;
     width: 100vw;
-    top: 0;
+    top: 0px;
     padding: 25px;
-    background-color: transparent;
+    background-color: #14141428;
     z-index: 3;
 }
 
@@ -201,6 +201,11 @@ body{
     margin-bottom: 40px;
 }
 
+#one{
+    padding-top: 31px;
+    height: 65vh;
+}
+
 #icon{
     color: white;
 }
@@ -211,7 +216,6 @@ body{
 
 .herotext{
     margin: 0 auto;
-    top: 80px;
     text-align: center;
     font-family: sans-serif;
     font-size: 70px;
@@ -515,7 +519,6 @@ ul li{
         width: 100%;
         padding: 20px 0;
         justify-content: center;
-
     }
 
     .herotext{
