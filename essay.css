@@ -49,7 +49,7 @@ h1 , h2, h3, h4, h5{
     color: white;
     animation: slideIn 1s linear both;
     animation-timeline: view();
-    animation-range: entry 50% cover 30%;
+    animation-range: entry 40% cover 20%;
 }
 
 h1{
@@ -90,6 +90,7 @@ p{
 
 .des{
     display: grid;
+    padding: 50px 120px;
 }
 
 em{
@@ -100,6 +101,8 @@ li{
     color:  rgb(210, 210, 210);
     font-size: 16px;
     animation: fadeIn 1s ;
+    padding: 0;
+    margin: 0;
 }
 
 .des a{
